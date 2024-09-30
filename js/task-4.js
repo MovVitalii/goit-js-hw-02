@@ -5,13 +5,14 @@ switch (country) {
 price = 100;
     break;
   case 'Chile':
-  price = 250
+  price = 250;
     break;
   case 'Australia':
     price = 170;
     break;
     case 'Jamaica':
       price = 120;
+      break;
   default:
     return "Sorry, there is no delivery to your country";
 }
